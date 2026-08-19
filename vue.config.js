@@ -1,7 +1,6 @@
 const { publicPath } = require('./src/config')
 
 /* compression */
-const BrotliPlugin = require('brotli-webpack-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
 const zopfli = require('@gfx/zopfli')
 
@@ -16,10 +15,6 @@ const compressionPlugins = [
     },
     minRatio: 0.99,
     test: compressionTest,
-  }),
-  new BrotliPlugin({
-    test: compressionTest,
-    minRatio: 0.99,
   }),
 ]
 
