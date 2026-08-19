@@ -7,6 +7,8 @@
 
 Internal app for managing ICJIA Research Hub contents.
 
+> **Note (August 2026):** The dataset "Data file" dropzone now accepts Excel files (`.xlsx`, `.xls`) in addition to CSV. Files are uploaded to the API unchanged (no parsing or conversion), so CSV remains the preferred format for open, machine-readable datasets. See [CHANGELOG.md](CHANGELOG.md) for the project history.
+
 **Powered by** [<img alt="Vue.js logo" src="https://camo.githubusercontent.com/728ce9f78c3139e76fa69925ad7cc502e32795d2/68747470733a2f2f7675656a732e6f72672f696d616765732f6c6f676f2e706e67" height="25">](https://vuejs.org/) [<img alt="Vuetify.js logo" src="https://camo.githubusercontent.com/41759602ad091b02adf7b4986b55b0a870471b98/68747470733a2f2f63646e2e767565746966796a732e636f6d2f696d616765732f6c6f676f732f6c6f676f2e737667" height="25" />](https://vuetifyjs.com/)
 
 ## Project Setup
